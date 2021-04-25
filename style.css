@@ -12,6 +12,7 @@
 .hamburger-menu {
   visibility: hidden;
   position: absolute;
+  z-index: 999;
 }
 
 #menu__toggle {
@@ -568,9 +569,5 @@ body {
     line-height: 19px;
     padding: 12.5px 62.9px;
     margin: 0 0 0 19%;
-  }
-
-  #menu__toggle {
-    opacity: 0;
   }
 }
