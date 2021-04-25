@@ -89,13 +89,17 @@
 }
 
 #menu__toggle:checked~ .menu__btn>span::before {
-  top: 0;
+  top: -24px;
+  left: -10px;
   transform: rotate(0);
+  background-color: #000;
 }
 
 #menu__toggle:checked~ .menu__btn>span::after {
-  top: 0;
+  top: -24px;
+  left: -10px;
   transform: rotate(90deg);
+  background-color: #000;
 }
 
 #menu__toggle:checked~ .menu__box {
@@ -251,7 +255,7 @@ body {
   }
 
   .menu__item {
-    margin-right: 27.1px;
+    margin-right: 26px;
     font-size: 16px;
     line-height: 19px;
   }
