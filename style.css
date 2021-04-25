@@ -237,7 +237,7 @@ body {
 
 @media (max-width: 1650px) and (min-width: 1250px) {
   .header {
-    margin-right: 3.2%;
+    margin-right: 3.5%;
     margin-left: 9.9%;
   }
 
@@ -245,10 +245,10 @@ body {
     margin: -161px 0 0 10%;
     background-position: 598.7px 81px,
       849px 97px,
-      1059px 96px;
+      1074px 96px;
     background-size: 227px 302px,
       202px 270px,
-      181px 270px;
+      400px 274.5px;
   }
 
   body {
@@ -303,10 +303,10 @@ body {
     margin: -161px 0 0 3.3%;
     background-position: 468.8px 83.5px,
       719.5px 98.9px,
-      929px 99px;
+      945px 99px;
     background-size: 227px 302px,
       202px 270px,
-      181px 270px;
+      400px 274.5px;
   }
 
   .menu__item {
