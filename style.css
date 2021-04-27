@@ -4,9 +4,10 @@
 }
 
 .main {
-  background: no-repeat url(img/1.svg),
-    no-repeat url(img/2.svg),
-    no-repeat url(img/3.svg);
+  border-radius: 5px;
+  background: no-repeat url(img/1.jpg),
+    no-repeat url(img/2.jpg),
+    no-repeat url(img/3.jpg);
 }
 
 .hamburger-menu {
@@ -124,7 +125,7 @@
 }
 
 body {
-  background: no-repeat url(img/background.svg);
+  background: no-repeat url(img/background.jpg);
 }
 
 .main__title {
