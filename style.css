@@ -176,6 +176,13 @@ body {
   transition: opasity 0.5s
 }
 
+.menu__item:hover {
+  transition: .15s;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 @media (max-width: 10000px) and (min-width: 1650px) {
   .header {
     margin-right: 3.6%;
