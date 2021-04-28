@@ -176,6 +176,13 @@ body {
   transition: opasity 0.5s
 }
 
+.menu__item:hover {
+  transition: .15s;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 @media (max-width: 10000px) and (min-width: 1650px) {
   .header {
     margin-right: 3.6%;
@@ -293,7 +300,65 @@ body {
   }
 }
 
-@media (max-width: 1250px) and (min-width: 991px) {
+@media (max-width: 1250px) and (min-width: 1179px) {
+  .header {
+    margin-right: 2.9%;
+    margin-left: 3.3%;
+  }
+
+  .main {
+    margin: -161px 0 0 3.3%;
+    background-position: 468.8px 83.5px,
+      719.5px 98.9px,
+      945px 99px;
+    background-size: 227px 302px,
+      202px 270px,
+      400px 274.5px;
+  }
+
+  .menu__item {
+    margin-right: 27.1px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .main__title {
+    font-size: 200px;
+    line-height: 265px;
+    margin: 200px 0 -99px 0;
+  }
+
+  .main__button {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12.5px 62.9px;
+    margin: 0 0 0 1.6%;
+  }
+
+  .main__subtitle {
+    font-size: 16px;
+    line-height: 19px ;
+    padding-right: 62%;
+    margin: 0 0 40px 1.5%;
+  }
+
+  .main__title-text_small {
+    font-size: 70px;
+    line-height: 93px;
+    margin: 0 0 14px 6%;
+  }
+
+  .logo {
+    background-size: 104px 39px;
+    padding: 5px 62% 143px 0px;
+  }
+
+  .menu {
+    margin-top: 7px;
+  }
+}
+
+@media (max-width: 1179px) and (min-width: 991px) {
   .header {
     margin-right: 2.9%;
     margin-left: 3.3%;
