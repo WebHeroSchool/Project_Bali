@@ -1,3 +1,3 @@
 const result = prompt('Как тебя зовут?');
-document.body.innerHTML = 'Привет, ' + result;
+console.log('Привет, ' + result);
 debugger;
